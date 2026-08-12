@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Mohamed Ibrahim — Software Engineer",
+    "titleTemplate": "%s | Mohamed Ibrahim",
+    "description": "Software Engineer building digital products from idea to production — web applications, backend systems, mobile apps, and integrations.",
+    "ogTitle": "Mohamed Ibrahim — Software Engineer",
+    "ogDescription": "I build digital products from idea to production. Software engineering across web, backend, mobile, and integrations."
+  },
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "contact": "Contact",
+    "startProject": "Let's build it"
+  },
+  "hero": {
+    "name1": "MOHAMED",
+    "name2": "IBRAHIM",
+    "title": "Software Engineer",
+    "tagline": "I build digital products from idea to production.",
+    "subTagline": "Working across web, backend, mobile, and integrations — choosing the right technology for each product.",
+    "cta1": "Have an idea? Let's build it.",
+    "cta2": "Tell me what you're building →",
+    "cta3": "WhatsApp",
+    "downloadCV": "Download CV",
+    "available": "Available for new projects",
+    "freelanceSince": "Freelancing since Sep 2024",
+    "basedIn": "Egypt · Remote",
+    "credibilityStrip": [
+      "SOFTWARE ENGINEER",
+      "FREELANCING SINCE 2024",
+      "10+ PROJECTS DELIVERED",
+      "EGYPT",
+      "REMOTE"
+    ]
+  },
+  "work": {
+    "heading": "SELECTED WORK",
+    "subheading": "Production work, shipped.",
+    "bodyText": "A selection of production work from a broader portfolio of digital products.",
+    "projectCount": "10+ projects delivered",
+    "selectedCount": "6 selected case studies",
+    "viewCaseStudy": "Case Study",
+    "viewLive": "Live Site",
+    "role": "Role",
+    "tech": "Stack"
+  },
+  "ecosystem": {
+    "label": "THE ECOSYSTEM",
+    "heading": "The tools change.",
+    "headingAccent": "The engineering doesn't.",
+    "body": "I choose the right technology for the product — not the other way around.",
+    "categories": {
+      "web": "Web",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "data": "Data",
+      "integrations": "Integrations",
+      "architecture": "Architecture"
+    }
+  },
+  "experience": {
+    "heading": "EXPERIENCE",
+    "subheading": "The journey so far.",
+    "present": "Present",
+    "full-time": "Full-time",
+    "fullTime": "Full-time",
+    "part-time-remote": "Part-time · Remote",
+    "partTimeRemote": "Part-time · Remote",
+    "freelance": "Freelance",
+    "trainee": "Trainee",
+    "volunteer": "Volunteer"
+  },
+  "services": {
+    "heading": "WHAT I BUILD",
+    "subheading": "From idea to a deployed, working product.",
+    "body": "Whatever the product requires — web, backend, mobile, or integrations — I build it.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Custom Digital Products",
+        "titleShort": "Digital Products",
+        "description": "From a business idea to a production-ready digital product — backend, frontend, database, deployment, done.",
+        "what": [
+          "Web applications",
+          "Mobile backends",
+          "Business platforms",
+          "Internal tools"
+        ],
+        "tech": "Stack chosen per product requirements"
+      },
+      {
+        "number": "02",
+        "title": "Web Applications",
+        "titleShort": "Web Apps",
+        "description": "End-to-end web applications built for real business requirements — from database schema and backend APIs to the entire frontend. One engineer, full ownership.",
+        "what": [
+          "Admin dashboards",
+          "Customer portals",
+          "SaaS products",
+          "Full-stack platforms",
+          "Directory & listing apps"
+        ],
+        "tech": "React · Next.js · ASP.NET Core · Node.js · SQL Server"
+      },
+      {
+        "number": "03",
+        "title": "Backend & API Engineering",
+        "titleShort": "Backend & APIs",
+        "description": "Secure, scalable backend systems and APIs that power modern products — built for performance and growth.",
+        "what": [
+          "REST APIs",
+          "Authentication systems",
+          "Business logic",
+          "Third-party integrations"
+        ],
+        "tech": ".NET · Node.js · SQL Server · JWT · Azure"
+      },
+      {
+        "number": "04",
+        "title": "Mobile App Development",
+        "titleShort": "Mobile Apps",
+        "description": "Full mobile applications — from UI to backend, push notifications, real-time updates, subscriptions, and payment integration.",
+        "what": [
+          "Cross-platform mobile apps",
+          "Push notifications",
+          "Subscription & payment systems",
+          "Real-time features"
+        ],
+        "tech": "Flutter · ASP.NET Core · Firebase FCM · SQL Server"
+      },
+      {
+        "number": "05",
+        "title": "E-Commerce Platforms",
+        "titleShort": "E-Commerce",
+        "description": "Custom online stores built around your brand — with inventory, orders, payments, and bilingual support built in.",
+        "what": [
+          "Product catalogues",
+          "Order management",
+          "Inventory tracking",
+          "Bilingual AR/EN"
+        ],
+        "tech": "React · .NET · SQL Server · Payment APIs"
+      },
+      {
+        "number": "06",
+        "title": "Payment & API Integrations",
+        "titleShort": "Integrations",
+        "description": "Connect your product to payment gateways, external services, and business APIs — locally and globally.",
+        "what": [
+          "Paymob · Kashier · Stripe",
+          "Al Rajhi Bank",
+          "Firebase FCM",
+          "Third-party APIs"
+        ],
+        "tech": "REST · Webhooks · Secure API Clients"
+      },
+      {
+        "number": "07",
+        "title": "Business Systems",
+        "titleShort": "Business Systems",
+        "description": "Internal tools and management systems that replace manual work with reliable, automated software.",
+        "what": [
+          "Admin panels",
+          "Workflow automation",
+          "Reporting systems",
+          "CMS solutions"
+        ],
+        "tech": "React · .NET · SQL Server · Role-based access"
+      }
+    ]
+  },
+  "about": {
+    "heading": "ABOUT",
+    "line1": "I'm a Software Engineer who builds digital products — from the first line of code to the production deployment.",
+    "line2": "I've shipped platforms used in Egypt, Saudi Arabia, and across the GCC — e-commerce stores, business management systems, investment platforms, mobile app backends, and educational tools.",
+    "line3": "I work directly with founders and clients, turning product ideas into deployed, working software.",
+    "line4": "Have an idea that needs to become a product? Let's build it.",
+    "downloadCV": "Download CV",
+    "yearsLabel": "Freelancing since",
+    "yearsValue": "2024",
+    "projectsLabel": "Projects delivered",
+    "projectsValue": "10+",
+    "marketsLabel": "Markets",
+    "marketsValue": "EG · KSA · GCC",
+    "marketsList": ["EG · Egypt", "KSA · Saudi Arabia", "GCC · Gulf Region"],
+    "tags": [
+      "Software Engineer",
+      "Full-Stack & APIs",
+      "Product Thinker",
+      "Problem Solver",
+      "Client-Focused",
+      "Remote / Global"
+    ]
+  },
+  "contact": {
+    "heading": "Have an idea?",
+    "subheading": "Let's build it.",
+    "description": "Tell me what you're working on — a new product, an existing system that needs work, or just an early idea. I'll respond fast.",
+    "cta1": "Tell me what you're building →",
+    "cta2": "WhatsApp Me",
+    "email": "moibrahime697@gmail.com",
+    "whatsapp": "01096209741",
+    "orEmail": "Or send an email directly"
+  },
+  "footer": {
+    "role": "Software Engineer",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js"
+  },
+  "project": {
+    "overview": "Overview",
+    "problem": "The Problem",
+    "solution": "The Solution",
+    "contribution": "My Contribution",
+    "engineering": "Engineering",
+    "showcase": "Product Showcase",
+    "outcome": "Outcome",
+    "live": "Live Project",
+    "nextProject": "Next Project",
+    "viewLive": "View Live Site",
+    "backToWork": "← Back to Work",
+    "role": "Role",
+    "tech": "Stack",
+    "year": "Year",
+    "category": "Category",
+    "selectedNote": "6 selected from 10+ projects delivered"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "backHome": "Go Home"
+  }
+}

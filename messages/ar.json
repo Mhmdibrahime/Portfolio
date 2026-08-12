@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "محمد إبراهيم — مهندس برمجيات وتطوير منتجات رقمية",
+    "titleTemplate": "%s | محمد إبراهيم",
+    "description": "مهندس برمجيات بساعد الشركات وأصحاب المشاريع يحولوا أفكارهم لمنتجات رقمية حقيقية — من الويب والـ Backend لحد تطبيقات الموبايل والتكاملات.",
+    "ogTitle": "محمد إبراهيم — مهندس برمجيات وتطوير منتجات رقمية",
+    "ogDescription": "من الفكرة لأول نسخة شغالة — ببني منتجات رقمية وأنظمة متكاملة تساعد البيزنس يكبر ويشتغل بشكل أذكى."
+  },
+
+  "nav": {
+    "work": "مشاريعي",
+    "about": "عنّي",
+    "experience": "خبرتي",
+    "services": "بقدم إيه",
+    "contact": "كلّمني",
+    "startProject": "ابدأ مشروعك"
+  },
+
+  "hero": {
+    "name1": "محمد",
+    "name2": "إبراهيم",
+    "title": "مهندس برمجيات",
+    "tagline": "بحوّل الأفكار لمنتجات رقمية تشتغل بجد.",
+    "subTagline": "بشتغل على الويب والـ Backend والموبايل، وبستخدم التقنية المناسبة لكل مشروع بدل ما أحصر نفسي في Stack واحد.",
+    "cta1": "خلينا نتكلم عن مشروعك",
+    "cta2": "تحميل الـ CV",
+    "cta3": "كلّمني على واتساب",
+    "downloadCV": "تحميل الـ CV",
+    "available": "متاح لمشاريع جديدة",
+    "freelanceSince": "بشتغل Freelance من سبتمبر 2024",
+    "basedIn": "مصر · Remote",
+    "credibilityStrip": [
+      "Software Engineer",
+      "Freelance من 2024",
+      "+10 مشاريع مكتملة",
+      "مصر · السعودية · الخليج",
+      "Web · Backend · Mobile"
+    ]
+  },
+
+  "work": {
+    "heading": "شوية من شغلي",
+    "subheading": "مشاريع حقيقية اشتغلت عليها من الفكرة لحد ما بقت شغالة.",
+    "bodyText": "دي مجموعة مختارة من المشاريع اللي اشتغلت عليها مع شركات وعملاء في مصر والسعودية والخليج. وفي مشاريع تانية اشتغلت عليها مش موجودة هنا حاليًا.",
+    "projectCount": "+10 مشاريع مكتملة",
+    "selectedCount": "6 مشاريع مختارة",
+    "viewCaseStudy": "شوف تفاصيل المشروع",
+    "viewLive": "شوف المشروع",
+    "role": "دوري في المشروع",
+    "tech": "التقنيات المستخدمة"
+  },
+
+  "ecosystem": {
+    "label": "التقنيات اللي بشتغل بيها",
+    "heading": "التقنية بتتغير،",
+    "headingAccent": "المهم إن الحل يشتغل صح.",
+    "body": "مش بختار التكنولوجيا عشان هي Trend. بختارها على حسب احتياج المشروع، الميزانية، سرعة التنفيذ، وقابلية المنتج إنه يكبر بعد كده.",
+    "categories": {
+      "web": "Web Development",
+      "backend": "Backend & APIs",
+      "mobile": "Mobile Apps",
+      "data": "Databases",
+      "integrations": "Payments & Integrations",
+      "architecture": "Architecture & Engineering"
+    }
+  },
+
+  "experience": {
+    "heading": "رحلتي المهنية",
+    "subheading": "من أول تجربة في البرمجة لحد شغل المشاريع والمنتجات الحقيقية.",
+    "present": "حتى الآن",
+    "full-time": "دوام كامل",
+    "fullTime": "دوام كامل",
+    "part-time-remote": "Part-time · Remote",
+    "partTimeRemote": "Part-time · Remote",
+    "freelance": "Freelance",
+    "trainee": "تدريب",
+    "volunteer": "عمل تطوعي"
+  },
+
+  "services": {
+    "heading": "إيه اللي أقدر أساعدك فيه؟",
+    "subheading": "من فكرة لمنتج شغال، أو من نظام قديم لحل أسرع وأحسن.",
+    "body": "سواء عندك فكرة لمنتج جديد، مشروع قائم محتاج تطوير، أو محتاج حد يمسك الجزء البرمجي من أول التخطيط لحد الإطلاق — أقدر أساعدك نبني الحل المناسب للمشروع.",
+    "items": [
+      {
+        "number": "01",
+        "title": "تطوير منتجات رقمية مخصصة",
+        "titleShort": "منتجات رقمية",
+        "description": "عندك فكرة ومش عارف تبدأ منين؟ أقدر أحولها لمنتج حقيقي، من الـ Architecture والـ Backend لحد الواجهة والإطلاق.",
+        "what": [
+          "منصات وأفكار Startup",
+          "أنظمة للشركات والأعمال",
+          "لوحات تحكم وأدوات تشغيل",
+          "منتجات SaaS"
+        ],
+        "tech": "التقنية والمعمارية بتتحدد حسب احتياج المشروع"
+      },
+      {
+        "number": "02",
+        "title": "تطوير مواقع وتطبيقات Web متكاملة",
+        "titleShort": "Web Development",
+        "description": "ببني تطبيقات ويب سريعة وقابلة للتوسع، من الـ UI والـ Frontend لحد الـ Backend وقاعدة البيانات.",
+        "what": [
+          "لوحات تحكم",
+          "بوابات ومنصات للعملاء",
+          "منصات Web تفاعلية",
+          "أنظمة SaaS"
+        ],
+        "tech": "React · Next.js · ASP.NET Core · Node.js"
+      },
+      {
+        "number": "03",
+        "title": "Backend & APIs",
+        "titleShort": "Backend & APIs",
+        "description": "ببني Backend منظم وآمن وسهل يتطور مع الوقت، مع APIs تقدر التطبيقات والخدمات المختلفة تعتمد عليها.",
+        "what": [
+          "REST APIs",
+          "Authentication & Authorization",
+          "Business Logic",
+          "Integrations & Webhooks"
+        ],
+        "tech": ".NET · Node.js · SQL Server · JWT · Azure"
+      },
+      {
+        "number": "04",
+        "title": "تطبيقات الموبايل",
+        "titleShort": "Mobile Apps",
+        "description": "تطبيقات موبايل عملية وسريعة تشتغل على Android وiOS، ومربوطة بالـ Backend والخدمات اللي محتاجها المنتج.",
+        "what": [
+          "تطبيقات Android و iOS",
+          "Push Notifications",
+          "Payments & Subscriptions",
+          "ربط التطبيق بالـ APIs"
+        ],
+        "tech": "Flutter · Firebase · REST APIs"
+      },
+      {
+        "number": "05",
+        "title": "متاجر ومنصات التجارة الإلكترونية",
+        "titleShort": "E-Commerce",
+        "description": "ببني متاجر إلكترونية مناسبة لطبيعة البيزنس، من عرض المنتجات والطلبات لحد الدفع وإدارة المخزون.",
+        "what": [
+          "كتالوج المنتجات",
+          "إدارة الطلبات والمخزون",
+          "بوابات الدفع",
+          "دعم عربي وإنجليزي"
+        ],
+        "tech": "React · Next.js · .NET · Node.js · SQL Server"
+      },
+      {
+        "number": "06",
+        "title": "ربط بوابات الدفع والخدمات الخارجية",
+        "titleShort": "Integrations",
+        "description": "لو عندك نظام وعايز تربطه ببوابة دفع أو خدمة خارجية، بعمل التكامل بشكل آمن ومنظم مع التعامل مع الـ Webhooks والـ Callbacks.",
+        "what": [
+          "Paymob · Kashier · Stripe",
+          "Payment APIs",
+          "Firebase & SMS Services",
+          "Webhooks & Callbacks"
+        ],
+        "tech": "REST APIs · Webhooks · Secure Integrations"
+      },
+      {
+        "number": "07",
+        "title": "أنظمة إدارة وتشغيل الشركات",
+        "titleShort": "Business Systems",
+        "description": "أنظمة مخصصة تساعد الشركات تنظم شغلها، تتابع العمليات، وتاخد قراراتها بناءً على بيانات واضحة.",
+        "what": [
+          "Dashboards & Admin Panels",
+          "CRM / ERP Solutions",
+          "تقارير ومتابعة الأداء",
+          "صلاحيات المستخدمين والأدوار"
+        ],
+        "tech": "React · Next.js · .NET · Node.js · SQL Server"
+      }
+    ]
+  },
+
+  "about": {
+    "heading": "عنّي",
+    "line1": "أنا محمد إبراهيم، Software Engineer وبشتغل على بناء المنتجات والأنظمة البرمجية من أول الفكرة لحد ما تبقى شغالة بشكل فعلي.",
+    "line2": "اشتغلت على مشاريع مختلفة في الويب والـ Backend والموبايل، مع شركات وعملاء في مصر والسعودية والخليج.",
+    "line3": "بشتغل بأكتر من Technology Stack زي .NET وNode.js وReact وNext.js وFlutter، وبختار الأدوات المناسبة لكل مشروع بدل ما أمشي بنفس الحل في كل مرة.",
+    "line4": "عندك فكرة أو مشروع محتاج يتبني أو يتطور؟ ابعتلي ونشوف نقدر نعمل إيه.",
+    "downloadCV": "تحميل الـ CV",
+    "yearsLabel": "Freelance من",
+    "yearsValue": "2024",
+    "projectsLabel": "مشاريع مكتملة",
+    "projectsValue": "+10",
+    "marketsLabel": "بشتغل مع",
+    "marketsValue": "مصر · السعودية · الخليج",
+    "marketsList": [
+      "مصر",
+      "السعودية",
+      "دول الخليج"
+    ],
+    "tags": [
+      "Software Engineer",
+      "Full-Stack Development",
+      "Web & Mobile",
+      "Backend & APIs",
+      "Product Thinking",
+      "Remote / Freelance"
+    ]
+  },
+
+  "contact": {
+    "heading": "عندك مشروع؟",
+    "subheading": "خلينا نتكلم.",
+    "description": "احكيلي عن فكرتك أو المشروع اللي شغال عليه، حتى لو لسه في مرحلة التفكير. ابعتلي التفاصيل وأنا هرد عليك ونشوف أنسب طريقة نبدأ بيها.",
+    "cta1": "ابعت تفاصيل مشروعك",
+    "cta2": "كلّمني على واتساب",
+    "email": "moibrahime697@gmail.com",
+    "whatsapp": "01096209741",
+    "orEmail": "أو ابعتلي على الإيميل"
+  },
+
+  "footer": {
+    "role": "Software Engineer",
+    "rights": "كل الحقوق محفوظة.",
+    "builtWith": "اتعمل بحب ❤️ بواسطة محمد إبراهيم"
+  },
+
+  "project": {
+    "overview": "عن المشروع",
+    "problem": "المشكلة والهدف",
+    "solution": "الحل اللي اتعمل",
+    "contribution": "دوري في المشروع",
+    "engineering": "الجانب التقني",
+    "showcase": "صور من المشروع",
+    "outcome": "النتيجة",
+    "live": "شوف المشروع Live",
+    "nextProject": "المشروع اللي بعده",
+    "viewLive": "زيارة الموقع",
+    "backToWork": "رجوع للمشاريع",
+    "role": "دوري في المشروع",
+    "tech": "التقنيات المستخدمة",
+    "year": "السنة",
+    "category": "نوع المشروع",
+    "selectedNote": "6 مشاريع مختارة من بين +10 مشاريع اشتغلت عليها"
+  },
+
+  "notFound": {
+    "title": "الصفحة مش موجودة",
+    "description": "الصفحة اللي بتحاول توصل لها مش موجودة أو اتنقلت لمكان تاني.",
+    "backHome": "ارجع للرئيسية"
+  }
+}
