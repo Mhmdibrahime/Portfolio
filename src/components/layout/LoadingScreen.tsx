@@ -21,7 +21,7 @@ export default function LoadingScreen({ locale }: { locale: string }) {
       return;
     }
 
-    // Phase 1: Dharma 3.5-second CRT terminal typing sequence
+    // Phase 1: Fast CRT terminal sequence (~600ms)
     let currentIdx = 0;
     let typed = "";
     const typingInterval = setInterval(() => {
@@ -31,17 +31,16 @@ export default function LoadingScreen({ locale }: { locale: string }) {
         currentIdx++;
       } else {
         clearInterval(typingInterval);
-        // Hold for 500ms before transitioning to main portfolio loading screen (Total 3.5s)
         setTimeout(() => {
           setPhase("main");
-        }, 500);
+        }, 150);
       }
-    }, 200);
+    }, 35);
 
     return () => clearInterval(typingInterval);
   }, [targetSequence]);
 
-  // Phase 2: Portfolio progress bar loader
+  // Phase 2: Rapid progress loader (~200ms)
   useEffect(() => {
     if (phase !== "main") return;
 
@@ -49,12 +48,12 @@ export default function LoadingScreen({ locale }: { locale: string }) {
       setProgress((prev) => {
         if (prev >= 100) {
           clearInterval(interval);
-          setTimeout(() => setIsLoading(false), 300);
+          setTimeout(() => setIsLoading(false), 100);
           return 100;
         }
-        return prev + Math.floor(Math.random() * 25) + 15;
+        return prev + 45;
       });
-    }, 60);
+    }, 25);
 
     return () => clearInterval(interval);
   }, [phase]);

@@ -375,7 +375,9 @@ export default function Hero({ locale }: { locale: string }) {
                     alt="Mohamed Ibrahim — Software Engineer"
                     fill
                     priority
-                    sizes="(max-width: 768px) 320px, 400px"
+                    fetchPriority="high"
+                    quality={80}
+                    sizes="(max-width: 640px) 280px, (max-width: 768px) 360px, 400px"
                     className="object-contain object-top select-none drop-shadow-[0_15px_30px_rgba(0,0,0,0.8)]"
                     style={{ objectPosition: "center 5%" }}
                   />

@@ -1,15 +1,17 @@
+import dynamic from "next/dynamic";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
-import SelectedWork from "@/components/sections/SelectedWork";
-import Engineering from "@/components/sections/Engineering";
-import Experience from "@/components/sections/Experience";
-import About from "@/components/sections/About";
-import Services from "@/components/sections/Services";
-import Contact from "@/components/sections/Contact";
 import LoadingScreen from "@/components/layout/LoadingScreen";
 import JsonLd from "@/components/seo/JsonLd";
+
+const SelectedWork = dynamic(() => import("@/components/sections/SelectedWork"));
+const Engineering = dynamic(() => import("@/components/sections/Engineering"));
+const Experience = dynamic(() => import("@/components/sections/Experience"));
+const About = dynamic(() => import("@/components/sections/About"));
+const Services = dynamic(() => import("@/components/sections/Services"));
+const Contact = dynamic(() => import("@/components/sections/Contact"));
 
 type Props = {
   params: Promise<{ locale: string }>;
