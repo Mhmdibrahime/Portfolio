@@ -153,33 +153,25 @@ export default function Hero({ locale }: { locale: string }) {
 
       {/* Main hero grid — no scroll parallax so content stays visible */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 flex-1 flex flex-col justify-center my-auto pb-10">
-        <div
-          className={`grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center ${
-            isRTL ? "lg:flex-row-reverse" : ""
-          }`}
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Left Column: Typography & Action */}
           <div
             className={cn(
-              "order-2 lg:order-1 lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left",
-              isRTL && "lg:text-right lg:items-end lg:col-start-6"
+              "order-2 lg:order-1 lg:col-span-7 flex flex-col items-center lg:items-start text-center",
+              isRTL ? "lg:text-right lg:items-start" : "lg:text-left"
             )}
           >
-            {/* Name Typography — 1 line in Arabic, 2 stacked lines in English */}
+            {/* Name Typography — bold, expansive font size matching English */}
             <div className="mb-4 overflow-hidden w-full">
               <h1
                 className={cn(
                   "tracking-tight font-black",
-                  isRTL ? "leading-[1.15]" : "leading-[0.88]"
+                  isRTL ? "leading-[1.1]" : "leading-[0.88]"
                 )}
-                style={{
-                  fontSize: isRTL
-                    ? "clamp(2.8rem, 5.8vw, 5.5rem)"
-                    : "clamp(3.5rem, 10vw, 8rem)",
-                }}
+                style={{ fontSize: "clamp(3.5rem, 8vw, 7.5rem)" }}
               >
                 {isRTL ? (
-                  <div className="overflow-hidden flex flex-wrap items-center justify-center lg:justify-start gap-x-4">
+                  <div className="overflow-hidden flex flex-wrap items-center justify-center lg:justify-start gap-x-5">
                     <motion.span
                       initial={{ y: "100%", opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
@@ -323,9 +315,7 @@ export default function Hero({ locale }: { locale: string }) {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.9, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-            className={`order-1 lg:order-2 lg:col-span-5 flex justify-center relative ${
-              isRTL ? "lg:col-start-1 lg:row-start-1" : ""
-            }`}
+            className="order-1 lg:order-2 lg:col-span-5 flex justify-center relative"
           >
             <div className="relative w-full max-w-[340px] sm:max-w-[400px] pb-14" style={{ aspectRatio: "3/4" }}>
               {/* Offset dashed frame */}
