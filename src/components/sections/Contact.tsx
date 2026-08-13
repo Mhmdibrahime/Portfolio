@@ -9,7 +9,7 @@ export default function Contact({ locale }: { locale: string }) {
   const isRTL = locale === "ar";
 
   const whatsappMsg = isRTL
-    ? "مرحباً محمد، أود الاستفسار ومناقشة مشروع برلمجي معك."
+    ? "مرحباً محمد، أود الاستفسار ومناقشة مشروع برمجي معك."
     : "Hi Mohamed, I'd like to tell you about a project idea I have.";
   const whatsappUrl = formatWhatsAppLink("01096209741", whatsappMsg);
 
@@ -80,11 +80,11 @@ export default function Contact({ locale }: { locale: string }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className={`flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 ${
+              className={`flex flex-col sm:flex-row items-center justify-center gap-4 ${
                 isRTL ? "sm:flex-row-reverse" : ""
               }`}
             >
-              {/* Primary — Tell me what you're building */}
+              {/* Primary — WhatsApp */}
               <a
                 href={whatsappUrl}
                 target="_blank"
@@ -126,31 +126,6 @@ export default function Contact({ locale }: { locale: string }) {
                   <polyline points="22,6 12,13 2,6" />
                 </svg>
                 {t("cta2")}
-              </a>
-            </motion.div>
-
-            {/* Contact details */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              className={`flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 ${
-                isRTL ? "sm:flex-row-reverse" : ""
-              }`}
-            >
-              <p
-                className="text-xs font-mono"
-                style={{ color: "var(--text-muted)" }}
-              >
-                {t("orEmail")}
-              </p>
-              <a
-                href="mailto:moibrahime697@gmail.com"
-                className="text-sm font-medium transition-colors duration-200 hover:text-[var(--accent)]"
-                style={{ color: "var(--text-secondary)" }}
-              >
-                {t("email")}
               </a>
             </motion.div>
           </div>
