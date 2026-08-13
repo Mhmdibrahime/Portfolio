@@ -391,20 +391,20 @@ export default function Hero({ locale }: { locale: string }) {
               >
                 {/* +10 Projects Shipped */}
                 <div
-                  className="flex-shrink-0 px-3 py-2 rounded-2xl border backdrop-blur-xl flex items-center gap-2.5 shadow-2xl"
+                  className="flex-shrink-0 px-3.5 py-2.5 rounded-2xl border backdrop-blur-xl flex items-center gap-2.5 shadow-2xl"
                   style={{
                     backgroundColor: "rgba(8,9,10,0.9)",
                     borderColor: "rgba(168,255,62,0.35)",
                   }}
                 >
-                  <div className="w-7 h-7 rounded-xl bg-[#a8ff3e]/15 border border-[#a8ff3e]/30 flex items-center justify-center text-[#a8ff3e] font-black text-xs">
+                  <div className="w-8 h-8 rounded-xl bg-[#a8ff3e]/15 border border-[#a8ff3e]/30 flex items-center justify-center text-[#a8ff3e] font-black text-xs sm:text-sm">
                     <HeroDharmaShuffler finalValue="10+" />
                   </div>
                   <div>
-                    <p className="text-[10px] font-bold text-white leading-tight whitespace-nowrap">
+                    <p className="text-[11px] sm:text-xs font-bold text-white leading-tight whitespace-nowrap">
                       {isRTL ? "مشاريع منجزة" : "Projects Shipped"}
                     </p>
-                    <p className="text-[8px] font-mono text-neutral-400 whitespace-nowrap">
+                    <p className="text-[9px] sm:text-[10px] font-mono text-neutral-400 whitespace-nowrap">
                       {isRTL ? "مصر · السعودية" : "EG · KSA · GCC"}
                     </p>
                   </div>
@@ -419,14 +419,14 @@ export default function Hero({ locale }: { locale: string }) {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -4 }}
                       transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-                      className="flex items-center justify-between gap-2 px-3 py-2 rounded-xl border backdrop-blur-md w-full"
+                      className="flex items-center justify-between gap-2.5 px-3.5 py-2.5 rounded-xl border backdrop-blur-md w-full"
                       style={{
                         backgroundColor: "rgba(8,9,10,0.9)",
                         borderColor: `${frameTags[activeTag].color}45`,
                       }}
                     >
                       <span
-                        className="text-[9px] font-mono font-bold truncate"
+                        className="text-[11px] sm:text-xs font-mono font-bold truncate"
                         style={{ color: frameTags[activeTag].color }}
                       >
                         {isRTL
@@ -434,12 +434,12 @@ export default function Hero({ locale }: { locale: string }) {
                             ? "مهندس برمجيات"
                             : activeTag === 1
                             ? "فريلانس 2024"
-                            : "مصر · عُرف"
+                            : "مصر · عن بُعد"
                           : frameTags[activeTag].label}
                       </span>
 
                       {/* 3 Animated Indicator Dots on the second half */}
-                      <div className="flex items-center gap-1 flex-shrink-0">
+                      <div className="flex items-center gap-1.5 flex-shrink-0">
                         {frameTags.map((tagItem, idx) => {
                           const isCurrent = activeTag === idx;
                           return (
@@ -447,14 +447,14 @@ export default function Hero({ locale }: { locale: string }) {
                               key={idx}
                               animate={{
                                 scale: isCurrent ? 1.25 : 1,
-                                opacity: isCurrent ? 1 : 0.3,
-                                width: isCurrent ? "8px" : "5px",
+                                opacity: isCurrent ? 1 : 0.35,
+                                width: isCurrent ? "10px" : "6px",
                               }}
                               transition={{ duration: 0.3 }}
-                              className="h-1.5 rounded-full inline-block"
+                              className="h-2 rounded-full inline-block"
                               style={{
                                 backgroundColor: tagItem.color,
-                                boxShadow: isCurrent ? `0 0 8px ${tagItem.color}` : "none",
+                                boxShadow: isCurrent ? `0 0 10px ${tagItem.color}` : "none",
                               }}
                             />
                           );
