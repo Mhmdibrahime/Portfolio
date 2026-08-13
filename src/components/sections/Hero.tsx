@@ -165,51 +165,56 @@ export default function Hero({ locale }: { locale: string }) {
               isRTL && "lg:text-right lg:items-end lg:col-start-6"
             )}
           >
-            {/* Name Typography — fits on 2 lines max */}
+            {/* Name Typography — 1 line in Arabic, 2 stacked lines in English */}
             <div className="mb-4 overflow-hidden w-full">
               <h1
                 className={cn(
                   "tracking-tight font-black",
-                  isRTL ? "leading-[1.1]" : "leading-[0.88]"
+                  isRTL ? "leading-[1.15]" : "leading-[0.88]"
                 )}
-                style={{ fontSize: "clamp(3.5rem, 10vw, 8rem)" }}
+                style={{
+                  fontSize: isRTL
+                    ? "clamp(2.8rem, 5.8vw, 5.5rem)"
+                    : "clamp(3.5rem, 10vw, 8rem)",
+                }}
               >
-                <div className="overflow-hidden">
-                  <span className="text-[var(--text-primary)] inline-block">
-                    {isRTL ? (
-                      <motion.span
-                        initial={{ y: "100%", opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.75, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
-                        className="inline-block"
-                      >
-                        {name1}
-                      </motion.span>
-                    ) : (
-                      name1.split("").map((char, i) => (
-                        <AnimatedChar key={i} char={char} delay={0.25 + i * 0.035} />
-                      ))
-                    )}
-                  </span>
-                </div>
-                <div className="overflow-hidden mt-1">
-                  <span className="bg-gradient-to-r from-[#38bdf8] via-[#818cf8] to-[#a8ff3e] bg-clip-text text-transparent inline-block pb-1">
-                    {isRTL ? (
-                      <motion.span
-                        initial={{ y: "100%", opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.75, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
-                        className="inline-block"
-                      >
-                        {name2}
-                      </motion.span>
-                    ) : (
-                      name2.split("").map((char, i) => (
-                        <AnimatedChar key={i} char={char} delay={0.45 + i * 0.035} />
-                      ))
-                    )}
-                  </span>
-                </div>
+                {isRTL ? (
+                  <div className="overflow-hidden flex flex-wrap items-center justify-center lg:justify-start gap-x-4">
+                    <motion.span
+                      initial={{ y: "100%", opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.75, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                      className="text-[var(--text-primary)] inline-block"
+                    >
+                      {name1}
+                    </motion.span>
+                    <motion.span
+                      initial={{ y: "100%", opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.75, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
+                      className="bg-gradient-to-r from-[#38bdf8] via-[#818cf8] to-[#a8ff3e] bg-clip-text text-transparent inline-block pb-1"
+                    >
+                      {name2}
+                    </motion.span>
+                  </div>
+                ) : (
+                  <>
+                    <div className="overflow-hidden">
+                      <span className="text-[var(--text-primary)] inline-block">
+                        {name1.split("").map((char, i) => (
+                          <AnimatedChar key={i} char={char} delay={0.25 + i * 0.035} />
+                        ))}
+                      </span>
+                    </div>
+                    <div className="overflow-hidden mt-1">
+                      <span className="bg-gradient-to-r from-[#38bdf8] via-[#818cf8] to-[#a8ff3e] bg-clip-text text-transparent inline-block pb-1">
+                        {name2.split("").map((char, i) => (
+                          <AnimatedChar key={i} char={char} delay={0.45 + i * 0.035} />
+                        ))}
+                      </span>
+                    </div>
+                  </>
+                )}
               </h1>
             </div>
 
@@ -220,7 +225,7 @@ export default function Hero({ locale }: { locale: string }) {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="mb-7"
             >
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center justify-center lg:justify-start gap-3">
                 <span className="h-px w-8 bg-[#38bdf8]" />
                 <p className="text-xs font-mono font-bold tracking-[0.3em] uppercase text-[#38bdf8]">
                   {t("title")}
