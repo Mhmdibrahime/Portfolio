@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://moibrahime.dev/sitemap.xml",
-    host: "https://moibrahime.dev",
+    sitemap: "https://www.mohamed-ibrahim.online/sitemap.xml",
+    host: "https://www.mohamed-ibrahim.online",
   };
 }

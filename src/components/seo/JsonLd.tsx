@@ -3,7 +3,7 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Mohamed Ibrahim",
-    url: "https://moibrahime.dev",
+    url: "https://www.mohamed-ibrahim.online",
     jobTitle: "Software Engineer",
     description:
       "Software Engineer specializing in backend architecture and full-stack development.",
@@ -25,7 +25,7 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Mohamed Ibrahim — Software Engineer",
-    url: "https://moibrahime.dev",
+    url: "https://www.mohamed-ibrahim.online",
     author: { "@type": "Person", name: "Mohamed Ibrahim" },
   };
 

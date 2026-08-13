@@ -3,7 +3,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://moibrahime.dev"),
+  metadataBase: new URL("https://www.mohamed-ibrahim.online"),
   title: {
     default: "Mohamed Ibrahim — Software Engineer",
     template: "%s | Mohamed Ibrahim",
@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     "React Developer",
     "Freelance Developer Egypt",
   ],
-  authors: [{ name: "Mohamed Ibrahim", url: "https://moibrahime.dev" }],
+  authors: [{ name: "Mohamed Ibrahim", url: "https://www.mohamed-ibrahim.online" }],
   creator: "Mohamed Ibrahim",
   openGraph: {
     type: "website",
-    url: "https://moibrahime.dev",
+    url: "https://www.mohamed-ibrahim.online",
     siteName: "Mohamed Ibrahim",
     title: "Mohamed Ibrahim — Software Engineer",
     description:
